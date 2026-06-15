@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="nl-nl" xml:lang="nl-nl" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="[%=System.LinkedTitle%]|[%=System.LinkedTitle%]" data-mc-conditions="Target.All,Target.Verified- Online">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="robots" content="" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../Skins/Favicons/favicon.ico" />
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title>Welke instellingen zijn van belang bij het installeren van Powerall Connect?</title>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
+        <meta name="description" content="Informatie over Welke instellingen zijn van belang bij het installeren van Powerall Connect?" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#Powerall/FAQ.Alg.Beh.Installatie.beheerinrichting.htm">Open onderwerp met navigatie</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">U bent hier:</span>
+            </div>
+        </div>
+        <h1 class="_PWA">Welke instellingen zijn van belang bij het installeren van <span class="mc-variable Powerall.Productnaam variable">Powerall Connect</span>?</h1>
+        <p>Bij de installatie van het softwarepakket <span class="mc-variable Powerall.Productnaam variable">Powerall Connect</span> is het volgende van belang:</p>
+        <h4 class="_PWA">Samenvatting:</h4>
+        <ul>
+            <li>PW share toegankelijk voor gebruikers (bijv. C:\Beversoftware\PW (PW moet dan gedeeld worden en voor iedereen toegankelijk zijn).</li>
+            <li>Thinclient op werkstations / terminal server (cliënt niet via wifi).</li>
+            <li>Runtime service op applicatie server op poort 5632.</li>
+            <li>Barcode:<ul class="CircleSecondLevel"><li><span class="Gray">barcode service op poort 9000 (is alleen voor intern verkeer).</span></li><li>barcode scanners via het wifi netwerk (kan ook bedraad).</li><li>barcode printers via netwerk.</li></ul></li>
+            <li>Netwerkprinters worden in <span class="mc-variable Powerall.Productnaam variable">Powerall Connect</span> gedefinieerd (dus vaste namen i.v.m. printvoorkeuren).</li>
+            <li>E-factuur uitgaand: via smtp / imap / exchange (relay) / office 365, zie <a href="p.GSY17.Instellingen.documentbeheer.htm" class="MCXref xref">Instellingen documentbeheer</a>.</li>
+            <li>E-factuur inkomend: lokale scanner of <span class="mc-variable Powerall.Productnaam variable">Powerall Connect</span> <span class="mc-variable PWA-text.Outlook_Inbox variable">Outlook Inbox</span></li>
+            <li>EDI koppeling: via een gedeelde map.</li>
+            <li>Betaalbestanden (sepa) inlezen via gedeelde map.</li>
+        </ul>
+        <h4 class="_PWA">Virus uitsluitingen</h4>
+        <ul>
+            <li>Voor virus uitsluitingen zie <a href="FAQ.Alg.Beh.Virusscanner.exceptions.htm" class="MCXref xref">Wat zijn de virusscanner uitsluitingen of exceptions?</a></li>
+        </ul>
+        <p>Firewall</p>
+        <ul>
+            <li>Voor firewall info zie <a href="FAQ.Alg.Beh.Firewall.htm" class="MCXref xref">Hoe, wat m.b.t. de Firewall</a></li>
+        </ul>
+        <hr color="#d3d3d3" width="100%" size="0" align="center" />
+        <h4 class="_PWA">FAQ</h4>
+        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Gesloten" data-mc-alt2="Open" />Wat is een mogelijk probleem, bij het installeren van barcode service?</a></span>
+            <div class="MCDropDownBody dropDownBody">
+                <p>Het is mogelijk dat poort 9000 bezet, door een andere applicatie. Om dit te controleren, <span class="mc-variable PWA-text.door_loop variable">doorloopt u de volgende stappen:</span></p>
+                <ol>
+                    <li value="1">Type &lt;<code>CMD</code>&gt; in, (bij windows zoeken).<ul class="SecondLevel"><li>Het <i>Opdrachtpromt</i> scherm verschijnt.</li></ul></li>
+                    <li value="2">Type het volgende commando in; &lt;<code>netstat -a -n -o | findstr 9000</code>&gt;.</li>
+                    <li value="3">In onderstaand voorbeeld is poort 9000, gekoppeld aan PID 4.</li>
+                    <li value="4"><span class="mc-variable PWA-text.Ga variable">Ga naar</span> <b>Taakbeheer</b> -&gt; tabblad <span class="TabWin">Details</span> <br /><img src="../Resources/Images/Overige/w.CMD.Netstat.9000.poort.png" class="OneHundredPercent" /></li>
+                    <li value="5">In de kolom <i>naam/beschrijving</i> is te zien, welke <b>applicatie</b>, gebruikt maakt van deze poort 9000.</li>
+                </ol>
+                <p style="font-weight: bold;">Oplossing</p>
+                <p><span class="mc-variable Powerall.Productnaam variable">Powerall Connect</span> werkt alleen met poort 9000, <b>oplossing</b>:</p>
+                <ul>
+                    <li>Verwijder de 'vreemde' applicatie.<br /><u>Of</u></li>
+                    <li>Wijzig de poort van de applicatie.</li>
+                </ul>
+            </div>
+        </div>
+        <br />
+        <p class="ChapterHnumber">Gerelateerde onderwerpen</p>
+        <ul>
+            <li><a href="FAQ.Alg.Beh.Virusscanner.exceptions.htm" class="MCXref xref">Wat zijn de virusscanner uitsluitingen of exceptions?</a>
+            </li>
+            <li><a href="FAQ.Alg.Beh.Firewall.htm" class="MCXref xref">Hoe, wat m.b.t. de Firewall</a>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_Footer_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">U bent hier:</span>
+            </div>
+        </div>
+        <p class="SIZE10" style="color: #696969;">Copyright © <MadCap:conditionalText data-mc-conditions="Bedrijf.Bever">1990-</MadCap:conditionalText><span class="mc-variable Powerall.Uyear variable">2026</span>&#160;<span class="mc-variable PWA-text.Beaver variable">Beaver Creek Technology B.V.</span>&#160;<a href="General.disclaimer.htm" class="MCXref xref">Disclaimer</a>&#160;</p>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-C3LJ1EJF81">
+        </script>
+        <script>/* <![CDATA[ */
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-C3LJ1EJF81');
+			gtag('event', {'event_category': 'search', 'event_label': searchTerm,})
+		/* ]]> */</script>
+    </body>
+</html>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MadCapSynonyms xml:lang="nl-nl">
+    <!-- saved from url=(0016)http://localhost -->
+    <Groups>
+        <SynonymGroup>
+            <Word>accesoires</Word>
+            <Word>accessoires</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>adventeren</Word>
+            <Word>advertentie</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>advertentie</Word>
+            <Word>advertentiekoppeling</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>aktief</Word>
+            <Word>actief</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>audittrail</Word>
+            <Word>audit</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>backup</Word>
+            <Word>snapshot</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>barcode</Word>
+            <Word>barcodes</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>caps</Word>
+            <Word>capslock</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>catalogus</Word>
+            <Word>catalogussen</Word>
+            <Word>catalog</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>his</Word>
+            <Word>historie</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>installeren</Word>
+            <Word>installeer</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>klantportaal</Word>
+            <Word>klantenportaal</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>lijst</Word>
+            <Word>rapportages</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>loep</Word>
+            <Word>loepje</Word>
+            <Word>zoekknop</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>maandafsluiting</Word>
+            <Word>periodewissel</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>offerte</Word>
+            <Word>offertes</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>personeelsnummer</Word>
+            <Word>personeelscode</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>poort</Word>
+            <Word>port</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>portaal</Word>
+            <Word>klantenportaal</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>portal</Word>
+            <Word>webportal</Word>
+            <Word>klantenportaal</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>powerprinter</Word>
+            <Word>powerprint</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>share</Word>
+            <Word>gedeelde</Word>
+            <Word>sharen</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>tracing</Word>
+            <Word>tracering</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>verhuurtarief</Word>
+            <Word>verhuurtarieven</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>wissel</Word>
+            <Word>afsluiting</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>voorloop</Word>
+            <Word>voorlooptekst</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="artikel">artikel</Word>
+            <Word Stem="artikel">artikelen</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="bart">bart</Word>
+            <Word Stem="bartspart">bartspart</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="beheerder">beheerder</Word>
+            <Word Stem="applicatiebeheerder">applicatiebeheerder</Word>
+            <Word Stem="systeembeheerder">systeembeheerder</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="lay">lay</Word>
+            <Word Stem="layout">layout</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="machin">machine</Word>
+            <Word Stem="machines">machines</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="opvoer">opvoer</Word>
+            <Word Stem="toevoeg">toevoegen</Word>
+            <Word Stem="aanmak">aanmaken</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="overzicht">overzicht</Word>
+            <Word Stem="rapportages">rapportages</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="portal">portal</Word>
+            <Word Stem="portal">portaal</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="rapport">rapport</Word>
+            <Word Stem="rapportag">rapportage</Word>
+            <Word Stem="rapportages">rapportages</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="relatie">relatie</Word>
+            <Word Stem="klant">klant</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="verwijder">verwijderen</Word>
+            <Word Stem="verwijder">verwijder</Word>
+            <Word Stem="delet">deleten</Word>
+        </SynonymGroup>
+    </Groups>
+    <Directional>
+        <DirectionalSynonym From="aankoopfacturen" To="inkoopfactur" />
+        <DirectionalSynonym From="afpunten" To="match" />
+        <DirectionalSynonym From="applicatiebeheerder" To="applicatie" />
+        <DirectionalSynonym From="artikelstructuur" To="artikellijst" />
+        <DirectionalSynonym From="atelier" To="werkplat" />
+        <DirectionalSynonym From="camionnete" To="servicebus" />
+        <DirectionalSynonym From="catalogus" To="catalogi" />
+        <DirectionalSynonym From="exporteren" To="export" />
+        <DirectionalSynonym From="financieel" To="financieel" />
+        <DirectionalSynonym From="identificatienummer" To="oin" />
+        <DirectionalSynonym From="import" To="inlez" />
+        <DirectionalSynonym From="kopieren" To="kopier" />
+        <DirectionalSynonym From="kostendrager" To="kostendrager" />
+        <DirectionalSynonym From="layout" To="opmak" />
+        <DirectionalSynonym From="licentie" To="licenties" />
+        <DirectionalSynonym From="onderhoudbeurt" To="onderhoudsbeurt" />
+        <DirectionalSynonym From="overuren" To="overwerk" />
+        <DirectionalSynonym From="regime" To="systematiek" />
+        <DirectionalSynonym From="SOPDRL" To="soprdl" />
+        <DirectionalSynonym From="sterretje" To="sterretjes" />
+        <DirectionalSynonym From="verschil" To="evenwicht" />
+        <DirectionalSynonym From="versie" To="versies" />
+        <DirectionalSynonym From="verzendinformatie" To="bezorginfo" />
+        <DirectionalSynonym From="vrijgeven" To="vrijgav" />
+        <DirectionalSynonym From="werkbon" To="wba" />
+        <DirectionalSynonym From="werkhuis" To="werkplat" />
+        <DirectionalSynonym From="pauze" To="pauzetabel" />
+        <DirectionalSynonym From="openstaande" To="openstaand" />
+        <DirectionalSynonym From="registeren" To="registratie" />
+        <DirectionalSynonym Stem="true" From="crediteur" To="leverancier" FromStem="crediteur" />
+        <DirectionalSynonym Stem="true" From="email" To="mail" FromStem="email" />
+        <DirectionalSynonym Stem="true" From="mail" To="mailserver" FromStem="mail" />
+        <DirectionalSynonym Stem="true" From="map" To="folder" FromStem="map" />
+        <DirectionalSynonym Stem="true" From="relatie" To="relaties" FromStem="relatie" />
+    </Directional>
+</MadCapSynonyms>
